@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+.wrap {
+    width: 1140px;
+    display: flex;
+    flex-direction: row; /*по умолчанию*/
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.card {
+    width: 555px;
+    background: linear-gradient(to right, #D943C9, #008BF0);
+}
+.item {
+    display: flex;
+    padding: 75px 35px;
+}
+.item__text {
+    color: #F4F9FC;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-transform: uppercase;
+}
+.item__annotation {
+    opacity: 0.6;
+}
+.img {
+    width: 100px;
+    height: 100px;
+}
+
